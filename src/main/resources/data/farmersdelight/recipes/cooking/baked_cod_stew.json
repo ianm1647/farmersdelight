@@ -1,0 +1,21 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "c:raw_fishes/cod"
+    },
+    {
+      "item": "minecraft:potato"
+    },
+    {
+      "tag": "c:eggs"
+    },
+    {
+      "tag": "c:crops/tomato"
+    }
+  ],
+  "result": {
+    "item": "farmersdelight:baked_cod_stew"
+  },
+  "cookingtime": 200
+}

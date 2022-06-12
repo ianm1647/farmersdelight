@@ -1,0 +1,43 @@
+{
+  "schemaVersion": 1,
+  "id": "farmersdelight",
+  "version": "${version}",
+  "name": "Farmer's Delight",
+  "description": "Fabric port for the awesome Farmer's Delight Forge mod!",
+  "authors": [
+    "Zifiv",
+    "vectorwing",
+    "StevenPlayzz",
+    "dopadream",
+    "orlouge"
+  ],
+  "contact": {
+    "homepage": "https://bitbucket.org/n-horyzon/farmers-delight-fabric",
+    "sources": "https://bitbucket.org/n-horyzon/farmers-delight-fabric",
+    "issues": "https://bitbucket.org/n-horyzon/farmers-delight-fabric/issues"
+  },
+  "license": "MIT License",
+  "icon": "assets/farmersdelight/icon.png",
+  "environment": "*",
+  "entrypoints": {
+    "main": [
+      "com.nhoryzon.mc.farmersdelight.FarmersDelightMod"
+    ],
+    "client": [
+      "com.nhoryzon.mc.farmersdelight.FarmersDelightModClient"
+    ],
+    "rei_common": [
+      "com.nhoryzon.mc.farmersdelight.integration.rei.FarmersDelightModREI"
+    ]
+  },
+  "mixins": [
+    "farmersdelight.mixins.json"
+  ],
+  "depends": {
+    "fabricloader": ">=0.14.6",
+    "fabric": ">=0.55.3+1.19",
+    "minecraft": "1.19"
+  },
+  "suggests": {
+  }
+}

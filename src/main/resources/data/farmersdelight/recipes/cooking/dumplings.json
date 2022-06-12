@@ -1,0 +1,33 @@
+{
+  "type": "farmersdelight:cooking",
+  "ingredients": [
+    {
+      "tag": "c:pasta"
+    },
+    {
+      "tag": "c:crops/cabbage"
+    },
+    {
+      "tag": "c:crops/onion"
+    },
+    [
+      {
+        "tag": "c:raw_chicken"
+      },
+      {
+        "item": "minecraft:brown_mushroom"
+      },
+      {
+        "tag": "c:raw_pork"
+      },
+      {
+        "tag": "c:raw_beef"
+      }
+    ]
+  ],
+  "result": {
+    "item": "farmersdelight:dumplings",
+    "count": 2
+  },
+  "cookingtime": 200
+}
